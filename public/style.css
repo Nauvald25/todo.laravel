@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&family=Montserrat:wght@100&family=Nerko+One&display=swap');
+/* Login Register */
+body{
+    background-image: url();
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            height: 100%;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.logreg .container{
+    background-color: red;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 0 40px red;
+    border-radius: 2%;
+    width: 30%;
+    padding: 10px 20px 50px 20px;
+    margin-top: 8%;
+}
+
+.logreg p{
+    color: white;
+}
+
+.logreg h3{
+    padding-bottom: 20px;
+    color: white;
+}
+.logreg input{
+    padding-left: 10px;
+    width: 200px;
+    height: 30px;
+}
+.logreg a{
+    text-decoration: none;
+    color: blue;
+}
+.logreg a:hover{
+    color: blue;
+}
+
+.logreg button{
+    width: 30%;
+    border-radius: 100px;
+    border: none ;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: beige;
+    color: white;
+    cursor: pointer;
+}
+.logreg button:hover{
+    background-color: rgb(241, 239, 239);
+    color: black;
+    transition: 0.5s;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+nav li {
+    float: left;
+  }
+  
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+nav .active {
+    background-color: #04AA6D;
+  }
+
+.dropdown-toogle:checked{
+    top: 90;
+}
+
+nav .nav-title{
+    font-style: italic;
+}
